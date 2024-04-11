@@ -1867,3 +1867,1594 @@ JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: u
 1712833953603	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 1712833965020	Marionette	INFO	Stopped listening on port 50862
 Dynamically enable window occlusion 1
+1712834676595	geckodriver	INFO	Listening on 127.0.0.1:54169
+1712834679656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileEXudzp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834680149	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834680210	Marionette	INFO	Listening on port 54177
+WebDriver BiDi listening on ws://127.0.0.1:54170
+Read port: 54177
+1712834680350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54170/devtools/browser/02bb5b95-13ca-4bc9-9fb0-02a99be3f8ac
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712834693606	Marionette	INFO	Stopped listening on port 54177
+Dynamically enable window occlusion 1
+1712834715018	geckodriver	INFO	Listening on 127.0.0.1:54730
+1712834718055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileEgT57s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834718551	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834718613	Marionette	INFO	Listening on port 54739
+WebDriver BiDi listening on ws://127.0.0.1:54731
+Read port: 54739
+1712834718756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54731/devtools/browser/edc617eb-ebaf-4ca3-bacb-ed04e7546635
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712834741322	Marionette	INFO	Stopped listening on port 54739
+Dynamically enable window occlusion 1
+1712834860170	geckodriver	INFO	Listening on 127.0.0.1:59724
+1712834863227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileYkyn4B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834863728	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834863792	Marionette	INFO	Listening on port 49963
+WebDriver BiDi listening on ws://127.0.0.1:59725
+Read port: 49963
+1712834863931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59725/devtools/browser/90e95eeb-7bfb-4f40-a87e-4e289ed01759
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712834893740	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712834909940	Marionette	INFO	Stopped listening on port 49963
+Dynamically enable window occlusion 1
+1712834911274	geckodriver	INFO	Listening on 127.0.0.1:50775
+1712834914324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilez18Ytm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834914812	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834914879	Marionette	INFO	Listening on port 50784
+WebDriver BiDi listening on ws://127.0.0.1:50776
+Read port: 50784
+1712834915019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50776/devtools/browser/00ec484a-88e6-45f7-a618-1edaddeb62e4
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712834932285	Marionette	INFO	Stopped listening on port 50784
+Dynamically enable window occlusion 1
+1712834946347	geckodriver	INFO	Listening on 127.0.0.1:51314
+1712834949393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileIKETHO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834949881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834949947	Marionette	INFO	Listening on port 51322
+WebDriver BiDi listening on ws://127.0.0.1:51315
+Read port: 51322
+1712834950087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51315/devtools/browser/c2b5da86-71b3-4a5e-9f66-28c01ac9f173
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712834972134	Marionette	INFO	Stopped listening on port 51322
+Dynamically enable window occlusion 1
+1712834973649	geckodriver	INFO	Listening on 127.0.0.1:51678
+1712834976693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile17YuhU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712834977181	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712834977242	Marionette	INFO	Listening on port 51689
+WebDriver BiDi listening on ws://127.0.0.1:51679
+Read port: 51689
+1712834977384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51679/devtools/browser/dfbbc0e9-51fe-46b9-8757-1ca46a07ca5f
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835007901	addons.xpi	ERROR	System addon update list erro1712835008594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.ex1712835225687	Marionette	INFO	Stopped listening on port 51689
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileLMUOFe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835009081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835009144	Marionette	INFO	Listening on port 52165
+WebDriver BiDi listening on ws://127.0.0.1:52089
+Read port: 52165
+1712835009284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52089/devtools/browser/99446b85-1033-4f2e-9e26-680f9b8f1607
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835027278	Marionette	INFO	Stopped listening on port 52165
+Dynamically enable window occlusion 1
+1712835046971	geckodriver	INFO	Listening on 127.0.0.1:55346
+1712835050016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileKfQCKX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835050508	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835050568	Marionette	INFO	Listening on port 55354
+WebDriver BiDi listening on ws://127.0.0.1:55347
+Read port: 55354
+1712835050716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55347/devtools/browser/5352a7c9-dac5-409e-910a-9961d50a5698
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835080022	Marionette	INFO	Stopped listening on port 55354
+Dynamically enable window occlusion 1
+1712835100136	geckodriver	INFO	Listening on 127.0.0.1:55875
+1712835103203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55876" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile6PoS89"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835103711	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835103776	Marionette	INFO	Listening on port 55883
+WebDriver BiDi listening on ws://127.0.0.1:55876
+Read port: 55883
+1712835103929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55876/devtools/browser/a735e96b-e65b-4715-8697-d2a258dcf964
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835117641	Marionette	INFO	Stopped listening on port 55883
+Dynamically enable window occlusion 1
+1712835139621	geckodriver	INFO	Listening on 127.0.0.1:56288
+1712835142672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilenPySQY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835143170	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835143232	Marionette	INFO	Listening on port 56300
+WebDriver BiDi listening on ws://127.0.0.1:56289
+Read port: 56300
+1712835143371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56289/devtools/browser/b2b9709b-8230-40c1-996b-b285f1bed928
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835158601	Marionette	INFO	Stopped listening on port 56300
+Dynamically enable window occlusion 1
+1712835172448	geckodriver	INFO	Listening on 127.0.0.1:56644
+1712835175503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilesP5k8n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835176020	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835176082	Marionette	INFO	Listening on port 56676
+WebDriver BiDi listening on ws://127.0.0.1:56645
+Read port: 56676
+1712835176227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56645/devtools/browser/e0fb0a8f-6852-4602-bbc4-113e43dc2b74
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835192187	Marionette	INFO	Stopped listening on port 56676
+Dynamically enable window occlusion 1
+1712835202415	geckodriver	INFO	Listening on 127.0.0.1:49363
+1712835205466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileUjoNDp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835205966	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835206028	Marionette	INFO	Listening on port 49380
+WebDriver BiDi listening on ws://127.0.0.1:49364
+Read port: 49380
+1712835206172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49364/devtools/browser/6106d482-92b5-4fcb-b417-b20f97747fcd
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835221876	Marionette	INFO	Stopped listening on port 49380
+Dynamically enable window occlusion 1
+1712835327181	geckodriver	INFO	Listening on 127.0.0.1:59459
+1712835330230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileWV2wRg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835330729	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835330793	Marionette	INFO	Listening on port 59489
+WebDriver BiDi listening on ws://127.0.0.1:59460
+Read port: 59489
+1712835330939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59460/devtools/browser/fe525601-744b-4767-9a08-9d327afaf9d3
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835353849	Marionette	INFO	Stopped listening on port 59489
+Dynamically enable window occlusion 1
+1712835410781	geckodriver	INFO	Listening on 127.0.0.1:60173
+1712835413818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileghlJE2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835414320	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835414382	Marionette	INFO	Listening on port 60225
+WebDriver BiDi listening on ws://127.0.0.1:60174
+Read port: 60225
+1712835414520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60174/devtools/browser/9133bf51-5ba9-4632-99f8-91f501440576
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835426487	Marionette	INFO	Stopped listening on port 60225
+Dynamically enable window occlusion 1
+1712835451023	geckodriver	INFO	Listening on 127.0.0.1:60677
+1712835454065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60678" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileTdnclk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835454589	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835454651	Marionette	INFO	Listening on port 60730
+WebDriver BiDi listening on ws://127.0.0.1:60678
+Read port: 60730
+1712835454794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60678/devtools/browser/4b940cc2-ec95-4b80-8ec0-e8e500296481
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835466553	Marionette	INFO	Stopped listening on port 60730
+JavaScript warning: https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854725, line 1: Script terminated by timeout at:
+gK@https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854725:1:142353
+
+Dynamically enable window occlusion 1
+1712835479957	geckodriver	INFO	Listening on 127.0.0.1:61065
+1712835482993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61066" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilelDaUGi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835483482	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835483545	Marionette	INFO	Listening on port 61093
+WebDriver BiDi listening on ws://127.0.0.1:61066
+Read port: 61093
+1712835483692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61066/devtools/browser/15c602d7-8856-454b-8c55-a2ea278f5dca
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835501048	Marionette	INFO	Stopped listening on port 61093
+Dynamically enable window occlusion 1
+1712835918771	geckodriver	INFO	Listening on 127.0.0.1:58324
+1712835921820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileSHmHfC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712835922337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712835922402	Marionette	INFO	Listening on port 58335
+WebDriver BiDi listening on ws://127.0.0.1:58325
+Read port: 58335
+1712835922548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58325/devtools/browser/cba2e2f7-0036-4a9d-bbf4-b3fa845bafe6
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712835934372	Marionette	INFO	Stopped listening on port 58335
+Dynamically enable window occlusion 1
+1712836132001	geckodriver	INFO	Listening on 127.0.0.1:59648
+1712836135047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59649" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileJiM79G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836135546	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836135611	Marionette	INFO	Listening on port 59704
+WebDriver BiDi listening on ws://127.0.0.1:59649
+Read port: 59704
+1712836135751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59649/devtools/browser/ff2eeb03-d9b8-420c-85fd-0585b9e3605e
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836147102	Marionette	INFO	Stopped listening on port 59704
+Dynamically enable window occlusion 1
+1712836152605	geckodriver	INFO	Listening on 127.0.0.1:60132
+1712836155651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilet1JXt9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836156137	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836156202	Marionette	INFO	Listening on port 60142
+WebDriver BiDi listening on ws://127.0.0.1:60133
+Read port: 60142
+1712836156348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60133/devtools/browser/379d60f0-e35f-444f-8c29-05c06f15d7cb
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836167969	Marionette	INFO	Stopped listening on port 60142
+Dynamically enable window occlusion 1
+1712836177538	geckodriver	INFO	Listening on 127.0.0.1:60467
+1712836180579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60468" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilecYMD8n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836181076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836181139	Marionette	INFO	Listening on port 60476
+WebDriver BiDi listening on ws://127.0.0.1:60468
+Read port: 60476
+1712836181296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60468/devtools/browser/0b422889-e612-479e-8a95-40b0d70d4c40
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836193161	Marionette	INFO	Stopped listening on port 60476
+Dynamically enable window occlusion 1
+1712836195811	geckodriver	INFO	Listening on 127.0.0.1:60680
+1712836198866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60681" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileCb8MQk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836199367	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836199429	Marionette	INFO	Listening on port 60721
+WebDriver BiDi listening on ws://127.0.0.1:60681
+Read port: 60721
+1712836199573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60681/devtools/browser/72641cd3-60f7-444f-996e-edd457eb8c78
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836210882	Marionette	INFO	Stopped listening on port 60721
+Dynamically enable window occlusion 1
+1712836235854	geckodriver	INFO	Listening on 127.0.0.1:54368
+1712836238926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile4B313x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836239447	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836239512	Marionette	INFO	Listening on port 54415
+WebDriver BiDi listening on ws://127.0.0.1:54369
+Read port: 54415
+1712836239658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54369/devtools/browser/176a29fe-4012-40d9-a9dd-8df437b9412f
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836251117	Marionette	INFO	Stopped listening on port 54415
+JavaScript warning: https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854727, line 1: Script terminated by timeout at:
+initFloatMode/gh/gl<@https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854727:1:176056
+
+Dynamically enable window occlusion 1
+1712836258774	geckodriver	INFO	Listening on 127.0.0.1:59496
+1712836261823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileqFI7Jr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836262332	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836262396	Marionette	INFO	Listening on port 59533
+WebDriver BiDi listening on ws://127.0.0.1:59497
+Read port: 59533
+1712836262537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59497/devtools/browser/2a75da53-a401-4c2f-8009-5993afbddfa1
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836274322	Marionette	INFO	Stopped listening on port 59533
+Dynamically enable window occlusion 1
+1712836275028	geckodriver	INFO	Listening on 127.0.0.1:59903
+1712836278083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileNTuYNO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836278592	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836278653	Marionette	INFO	Listening on port 54001
+WebDriver BiDi listening on ws://127.0.0.1:59904
+Read port: 54001
+1712836278804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59904/devtools/browser/3d02b741-c7c6-49de-9171-4ab0ba2d162d
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836289905	Marionette	INFO	Stopped listening on port 54001
+Dynamically enable window occlusion 1
+1712836290542	geckodriver	INFO	Listening on 127.0.0.1:54230
+1712836293599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile1posOa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836294101	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836294164	Marionette	INFO	Listening on port 54263
+WebDriver BiDi listening on ws://127.0.0.1:54231
+Read port: 54263
+1712836294306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54231/devtools/browser/1acdb909-01ba-4f62-8b43-d91882b2a232
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836306810	Marionette	INFO	Stopped listening on port 54263
+Dynamically enable window occlusion 1
+1712836307524	geckodriver	INFO	Listening on 127.0.0.1:54618
+1712836310568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54619" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilewdzJDd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836311066	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836311128	Marionette	INFO	Listening on port 54637
+WebDriver BiDi listening on ws://127.0.0.1:54619
+Read port: 54637
+1712836311276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54619/devtools/browser/214a7053-52b7-4192-afa8-9c9e5cf95da5
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836341083	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712836343002	Marionette	INFO	Stopped listening on port 54637
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/pioneer-study-addons-v2 getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712836343649	geckodriver	INFO	Listening on 127.0.0.1:55132
+1712836346696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileCcPQqY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712836347189	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712836347253	Marionette	INFO	Listening on port 55177
+WebDriver BiDi listening on ws://127.0.0.1:55133
+Read port: 55177
+1712836347407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55133/devtools/browser/5f542452-1c9c-4ad8-9036-164bcd8d0f87
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712836358890	Marionette	INFO	Stopped listening on port 55177
+Dynamically enable window occlusion 1
+1712837048132	geckodriver	INFO	Listening on 127.0.0.1:64518
+1712837051205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofiler0XX8a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837051717	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837051782	Marionette	INFO	Listening on port 64526
+WebDriver BiDi listening on ws://127.0.0.1:64519
+Read port: 64526
+1712837051920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64519/devtools/browser/1f992d50-9e9f-4557-9ab6-26b6f32d2a37
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837067806	Marionette	INFO	Stopped listening on port 64526
+Dynamically enable window occlusion 1
+1712837584059	geckodriver	INFO	Listening on 127.0.0.1:61069
+1712837587121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileioLOXh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837587610	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837587671	Marionette	INFO	Listening on port 61102
+WebDriver BiDi listening on ws://127.0.0.1:61070
+Read port: 61102
+1712837587819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61070/devtools/browser/71924560-acc2-4ba6-9850-28461e51f05c
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837608657	Marionette	INFO	Stopped listening on port 61102
+Dynamically enable window occlusion 1
+1712837623640	geckodriver	INFO	Listening on 127.0.0.1:61567
+1712837626688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61568" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile80khG9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837627201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837627263	Marionette	INFO	Listening on port 61576
+WebDriver BiDi listening on ws://127.0.0.1:61568
+Read port: 61576
+1712837627403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61568/devtools/browser/24926a8e-bec5-457b-806a-6501df375437
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837641605	Marionette	INFO	Stopped listening on port 61576
+Dynamically enable window occlusion 1
+1712837647079	geckodriver	INFO	Listening on 127.0.0.1:62013
+1712837650133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62014" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileoJzgJ1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837650630	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837650696	Marionette	INFO	Listening on port 62022
+WebDriver BiDi listening on ws://127.0.0.1:62014
+Read port: 62022
+1712837650845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62014/devtools/browser/e11d4b18-8a5c-4f24-a2c2-8c5defa015f6
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837662131	Marionette	INFO	Stopped listening on port 62022
+Dynamically enable window occlusion 1
+1712837669133	geckodriver	INFO	Listening on 127.0.0.1:62384
+1712837672183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileTYs67f"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837672673	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837672735	Marionette	INFO	Listening on port 62393
+WebDriver BiDi listening on ws://127.0.0.1:62385
+Read port: 62393
+1712837672880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62385/devtools/browser/b60a097e-155f-494c-a138-342785127181
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837686056	Marionette	INFO	Stopped listening on port 62393
+Dynamically enable window occlusion 1
+1712837686774	geckodriver	INFO	Listening on 127.0.0.1:62522
+1712837689833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofiledZSAde"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837690324	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837690392	Marionette	INFO	Listening on port 62557
+WebDriver BiDi listening on ws://127.0.0.1:62524
+Read port: 62557
+1712837690537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62524/devtools/browser/bb2fe25d-b005-48a4-8934-94fadb648297
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837702306	Marionette	INFO	Stopped listening on port 62557
+Dynamically enable window occlusion 1
+1712837702946	geckodriver	INFO	Listening on 127.0.0.1:62867
+1712837705999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilemk39OV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837706507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837706572	Marionette	INFO	Listening on port 62897
+WebDriver BiDi listening on ws://127.0.0.1:62868
+Read port: 62897
+1712837706710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62868/devtools/browser/69ed42c0-edee-4cf8-a0b3-980d92477a0c
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837718435	Marionette	INFO	Stopped listening on port 62897
+Dynamically enable window occlusion 1
+1712837719072	geckodriver	INFO	Listening on 127.0.0.1:63143
+1712837722093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile91VKOe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837722594	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837722656	Marionette	INFO	Listening on port 63153
+WebDriver BiDi listening on ws://127.0.0.1:63144
+Read port: 63153
+1712837722798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63144/devtools/browser/eacdd924-1690-426a-87cf-b369134ece95
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837734619	Marionette	INFO	Stopped listening on port 63153
+Dynamically enable window occlusion 1
+1712837735318	geckodriver	INFO	Listening on 127.0.0.1:63435
+1712837738381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63436" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile6ko1KW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837738877	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837738939	Marionette	INFO	Listening on port 63444
+WebDriver BiDi listening on ws://127.0.0.1:63436
+Read port: 63444
+1712837739089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63436/devtools/browser/6c9c8ed0-397b-4c1e-99a8-b26311c7c635
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837752250	Marionette	INFO	Stopped listening on port 63444
+Dynamically enable window occlusion 1
+1712837775054	geckodriver	INFO	Listening on 127.0.0.1:61102
+1712837778111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile7jVnrC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837778627	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837778694	Marionette	INFO	Listening on port 55175
+WebDriver BiDi listening on ws://127.0.0.1:61103
+Read port: 55175
+1712837778831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61103/devtools/browser/161f7abd-e5a2-42f7-bcb2-bc594b56fbe9
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837792965	Marionette	INFO	Stopped listening on port 55175
+Dynamically enable window occlusion 1
+1712837803548	geckodriver	INFO	Listening on 127.0.0.1:57001
+1712837806596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile6DREwH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837807091	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837807154	Marionette	INFO	Listening on port 57009
+WebDriver BiDi listening on ws://127.0.0.1:57002
+Read port: 57009
+1712837807295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57002/devtools/browser/b899f481-f7b2-4679-91ef-06b9be71416f
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837826583	Marionette	INFO	Stopped listening on port 57009
+Dynamically enable window occlusion 1
+1712837842339	geckodriver	INFO	Listening on 127.0.0.1:51870
+1712837845378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51871" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilepODb05"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837845884	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837845946	Marionette	INFO	Listening on port 57644
+WebDriver BiDi listening on ws://127.0.0.1:51871
+Read port: 57644
+1712837846084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51871/devtools/browser/12ba0ec7-e4ff-4255-97bb-b81a7291746d
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837857379	Marionette	INFO	Stopped listening on port 57644
+Dynamically enable window occlusion 1
+1712837864817	geckodriver	INFO	Listening on 127.0.0.1:56130
+1712837867877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilek6tPF4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837868373	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837868433	Marionette	INFO	Listening on port 56138
+WebDriver BiDi listening on ws://127.0.0.1:56131
+Read port: 56138
+1712837868582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56131/devtools/browser/ac8feafe-707e-44b5-8d01-39f03370315e
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837880308	Marionette	INFO	Stopped listening on port 56138
+Dynamically enable window occlusion 1
+1712837924523	geckodriver	INFO	Listening on 127.0.0.1:54846
+1712837927564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileG3KH6a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837928095	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837928160	Marionette	INFO	Listening on port 54774
+WebDriver BiDi listening on ws://127.0.0.1:54847
+Read port: 54774
+1712837928292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54847/devtools/browser/ab707e00-b323-4eb3-8ff9-507042e8be42
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837940644	Marionette	INFO	Stopped listening on port 54774
+Dynamically enable window occlusion 1
+1712837941356	geckodriver	INFO	Listening on 127.0.0.1:55980
+1712837944409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileu21jAe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837944905	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837944966	Marionette	INFO	Listening on port 57596
+WebDriver BiDi listening on ws://127.0.0.1:55981
+Read port: 57596
+1712837945110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55981/devtools/browser/0b500856-9220-471d-9769-d8d160b08112
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837957416	Marionette	INFO	Stopped listening on port 57596
+Dynamically enable window occlusion 1
+1712837958100	geckodriver	INFO	Listening on 127.0.0.1:61667
+1712837961150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61668" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile1cCGki"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837961651	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837961715	Marionette	INFO	Listening on port 62714
+WebDriver BiDi listening on ws://127.0.0.1:61668
+Read port: 62714
+1712837961861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61668/devtools/browser/67fb41d8-ee52-472a-aea3-8b961ec21f7d
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837976784	Marionette	INFO	Stopped listening on port 62714
+Dynamically enable window occlusion 1
+1712837977474	geckodriver	INFO	Listening on 127.0.0.1:51466
+1712837980548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilee0tdIF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837981037	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837981100	Marionette	INFO	Listening on port 62278
+WebDriver BiDi listening on ws://127.0.0.1:51467
+Read port: 62278
+1712837981259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51467/devtools/browser/7a815abd-48f6-4b64-b17f-d5843b1abaa5
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712837993553	Marionette	INFO	Stopped listening on port 62278
+Dynamically enable window occlusion 1
+1712837994181	geckodriver	INFO	Listening on 127.0.0.1:55171
+1712837997238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55172" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile8TcNok"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712837997745	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712837997810	Marionette	INFO	Listening on port 60655
+WebDriver BiDi listening on ws://127.0.0.1:55172
+Read port: 60655
+1712837997962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55172/devtools/browser/8d18e14a-5d03-46bf-bc5f-e2817b5dfd4a
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838009913	Marionette	INFO	Stopped listening on port 60655
+Dynamically enable window occlusion 1
+1712838196151	geckodriver	INFO	Listening on 127.0.0.1:54803
+1712838199203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54804" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileTKwYcM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712838199717	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712838199779	Marionette	INFO	Listening on port 54811
+WebDriver BiDi listening on ws://127.0.0.1:54804
+Read port: 54811
+1712838199920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54804/devtools/browser/eeae2175-5b1e-4cb2-b4b6-e6a3baaa45d7
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838212283	Marionette	INFO	Stopped listening on port 54811
+Dynamically enable window occlusion 1
+1712838213003	geckodriver	INFO	Listening on 127.0.0.1:55227
+1712838216040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55228" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileyKKUbN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712838216541	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712838216601	Marionette	INFO	Listening on port 55236
+WebDriver BiDi listening on ws://127.0.0.1:55228
+Read port: 55236
+1712838216743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55228/devtools/browser/366bf438-2e33-4cd2-a8dc-6e7dcb728069
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838231625	Marionette	INFO	Stopped listening on port 55236
+Dynamically enable window occlusion 1
+1712838232262	geckodriver	INFO	Listening on 127.0.0.1:55511
+1712838235312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55512" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileqwJnzH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712838235816	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712838235880	Marionette	INFO	Listening on port 55542
+WebDriver BiDi listening on ws://127.0.0.1:55512
+Read port: 55542
+1712838236018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55512/devtools/browser/3db3e689-013d-453c-9869-119a1b07d65a
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838249305	Marionette	INFO	Stopped listening on port 55542
+Dynamically enable window occlusion 1
+1712838250005	geckodriver	INFO	Listening on 127.0.0.1:55810
+1712838253044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileEiDLO5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712838253536	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712838253599	Marionette	INFO	Listening on port 55819
+WebDriver BiDi listening on ws://127.0.0.1:55811
+Read port: 55819
+1712838253745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55811/devtools/browser/7eb61d45-42f9-4ecf-b62c-1af937c09b06
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838270183	Marionette	INFO	Stopped listening on port 55819
+Dynamically enable window occlusion 1
+1712838270873	geckodriver	INFO	Listening on 127.0.0.1:56138
+1712838273915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilewns3tY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712838274408	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712838274468	Marionette	INFO	Listening on port 56146
+WebDriver BiDi listening on ws://127.0.0.1:56139
+Read port: 56146
+1712838274612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56139/devtools/browser/2852fc81-a370-4b24-a696-32a8df1853a2
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712838288550	Marionette	INFO	Stopped listening on port 56146
+Dynamically enable window occlusion 1
+1712839551473	geckodriver	INFO	Listening on 127.0.0.1:50627
+1712839554542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50628" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileWxovbw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839555075	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839555139	Marionette	INFO	Listening on port 50655
+WebDriver BiDi listening on ws://127.0.0.1:50628
+Read port: 50655
+1712839555267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50628/devtools/browser/579cbae6-2839-4296-9283-bdc479b10db6
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839570120	Marionette	INFO	Stopped listening on port 50655
+Dynamically enable window occlusion 1
+1712839596977	geckodriver	INFO	Listening on 127.0.0.1:63074
+1712839600033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile2zyI8Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839600543	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839600610	Marionette	INFO	Listening on port 63083
+WebDriver BiDi listening on ws://127.0.0.1:63075
+Read port: 63083
+1712839600749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63075/devtools/browser/734a4cf9-9853-4fd6-aeff-3aef682514b9
+1712839630552	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839642921	Marionette	INFO	Stopped listening on port 63083
+Dynamically enable window occlusion 1
+1712839653183	geckodriver	INFO	Listening on 127.0.0.1:65145
+1712839656229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65146" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile0Gvha8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839656734	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839656800	Marionette	INFO	Listening on port 65153
+WebDriver BiDi listening on ws://127.0.0.1:65146
+Read port: 65153
+1712839656937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65146/devtools/browser/bae701ab-87eb-4086-bf4d-9cdd55cf2f96
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839672783	Marionette	INFO	Stopped listening on port 65153
+Dynamically enable window occlusion 1
+1712839681038	geckodriver	INFO	Listening on 127.0.0.1:65523
+1712839684102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileLUXeN4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839684595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839684661	Marionette	INFO	Listening on port 65531
+WebDriver BiDi listening on ws://127.0.0.1:65524
+Read port: 65531
+1712839684804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65524/devtools/browser/1f6b025b-d54b-4049-9a20-064426d9baff
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839699073	Marionette	INFO	Stopped listening on port 65531
+Dynamically enable window occlusion 1
+1712839876409	geckodriver	INFO	Listening on 127.0.0.1:59168
+1712839879468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileKNGUoe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839879981	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839880042	Marionette	INFO	Listening on port 59176
+WebDriver BiDi listening on ws://127.0.0.1:59169
+Read port: 59176
+1712839880184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59169/devtools/browser/5c672eca-3572-4b2b-bdb0-e9c4c4c4bc5e
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839893048	Marionette	INFO	Stopped listening on port 59176
+Dynamically enable window occlusion 1
+1712839933839	geckodriver	INFO	Listening on 127.0.0.1:55181
+1712839936876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofiledW5aM6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839937382	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839937445	Marionette	INFO	Listening on port 55190
+WebDriver BiDi listening on ws://127.0.0.1:55182
+Read port: 55190
+1712839937587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55182/devtools/browser/33172b06-60b2-429f-9963-b98450676348
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712839954789	Marionette	INFO	Stopped listening on port 55190
+Dynamically enable window occlusion 1
+1712839985678	geckodriver	INFO	Listening on 127.0.0.1:52289
+1712839988745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52290" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileu4C3eR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712839989254	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712839989315	Marionette	INFO	Listening on port 52297
+WebDriver BiDi listening on ws://127.0.0.1:52290
+Read port: 52297
+1712839989456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52290/devtools/browser/4c1d0ea1-57ef-451b-afc8-e3aa69123962
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840019264	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712841376686	Marionette	INFO	Stopped listening on port 52297
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57946" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilej7WDfy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840043684	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840043749	Marionette	INFO	Listening on port 57953
+WebDriver BiDi listening on ws://127.0.0.1:57946
+Read port: 57953
+1712840043887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57946/devtools/browser/743937b6-a1c7-41b9-9ba8-c911e6cf073f
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840064320	Marionette	INFO	Stopped listening on port 57953
+Dynamically enable window occlusion 1
+1712840073791	geckodriver	INFO	Listening on 127.0.0.1:58387
+1712840076833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileLwTJa8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840077339	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840077402	Marionette	INFO	Listening on port 58396
+WebDriver BiDi listening on ws://127.0.0.1:58388
+Read port: 58396
+1712840077546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58388/devtools/browser/b5f821ea-6994-41af-88ec-fa33abdbace1
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840094934	Marionette	INFO	Stopped listening on port 58396
+Dynamically enable window occlusion 1
+1712840105065	geckodriver	INFO	Listening on 127.0.0.1:52149
+1712840108133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52150" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileokvPkn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840108647	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840108709	Marionette	INFO	Listening on port 52157
+WebDriver BiDi listening on ws://127.0.0.1:52150
+Read port: 52157
+1712840108852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52150/devtools/browser/553883a1-4608-4c0a-b8d1-4abdb3273944
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840125442	Marionette	INFO	Stopped listening on port 52157
+Dynamically enable window occlusion 1
+1712840274052	geckodriver	INFO	Listening on 127.0.0.1:60855
+1712840277118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60856" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileljsmth"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840277635	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840277701	Marionette	INFO	Listening on port 60868
+WebDriver BiDi listening on ws://127.0.0.1:60856
+Read port: 60868
+1712840277805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60856/devtools/browser/461e8d4c-2456-4c3d-a1c1-76f3072aceb1
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840297726	Marionette	INFO	Stopped listening on port 60868
+Dynamically enable window occlusion 1
+1712840326097	geckodriver	INFO	Listening on 127.0.0.1:61404
+1712840329149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile3dGVj2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840329646	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840329709	Marionette	INFO	Listening on port 61413
+WebDriver BiDi listening on ws://127.0.0.1:61405
+Read port: 61413
+1712840329854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61405/devtools/browser/50db9b66-7a5c-41ea-8080-579c83de1801
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840346866	Marionette	INFO	Stopped listening on port 61413
+Dynamically enable window occlusion 1
+1712840366083	geckodriver	INFO	Listening on 127.0.0.1:60402
+1712840369143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileO69wIf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840369638	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840369699	Marionette	INFO	Listening on port 60422
+WebDriver BiDi listening on ws://127.0.0.1:60403
+Read port: 60422
+1712840369839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60403/devtools/browser/785a113f-53fc-4552-b5df-daa73502b5fa
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712840386937	Marionette	INFO	Stopped listening on port 60422
+Dynamically enable window occlusion 1
+1712841341647	geckodriver	INFO	Listening on 127.0.0.1:53495
+1712841344697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53496" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile0aXU9E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841345210	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841345275	Marionette	INFO	Listening on port 53506
+WebDriver BiDi listening on ws://127.0.0.1:53496
+Read port: 53506
+1712841345414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53496/devtools/browser/3c6f6575-23b5-4185-bb90-773de5578e2f
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841375231	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712841377983	Marionette	INFO	Stopped listening on port 53506
+Dynamically enable window occlusion 1
+1712841412040	geckodriver	INFO	Listening on 127.0.0.1:54079
+1712841415102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54080" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileuH8XHA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841415609	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841415672	Marionette	INFO	Listening on port 54128
+WebDriver BiDi listening on ws://127.0.0.1:54080
+Read port: 54128
+1712841415821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54080/devtools/browser/518adbf3-bab7-497d-9920-f39e7b46c6d1
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841437561	Marionette	INFO	Stopped listening on port 54128
+Dynamically enable window occlusion 1
+1712841472283	geckodriver	INFO	Listening on 127.0.0.1:54534
+1712841475336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileq0ZlIw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841475843	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841475904	Marionette	INFO	Listening on port 54563
+WebDriver BiDi listening on ws://127.0.0.1:54535
+Read port: 54563
+1712841476054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54535/devtools/browser/eb415ca5-ec30-4b17-9fc8-48d797493ff7
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841505861	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712841506010	Marionette	INFO	Stopped listening on port 54563
+Dynamically enable window occlusion 1
+1712841575191	geckodriver	INFO	Listening on 127.0.0.1:60282
+1712841578252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileqsWBD4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841578757	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841578820	Marionette	INFO	Listening on port 60293
+WebDriver BiDi listening on ws://127.0.0.1:60283
+Read port: 60293
+1712841578969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60283/devtools/browser/81217536-7fda-40d3-a3d0-0345722b08de
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841601341	Marionette	INFO	Stopped listening on port 60293
+Dynamically enable window occlusion 1
+1712841643717	geckodriver	INFO	Listening on 127.0.0.1:60818
+1712841646767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilexRQb9i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841647305	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841647427	Marionette	INFO	Listening on port 50948
+WebDriver BiDi listening on ws://127.0.0.1:60819
+Read port: 50948
+1712841647581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60819/devtools/browser/057e2aae-d797-45d6-85aa-1e2b8d1bf305
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841661433	Marionette	INFO	Stopped listening on port 50948
+Dynamically enable window occlusion 1
+1712841676550	geckodriver	INFO	Listening on 127.0.0.1:59204
+1712841679598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileSZd8kz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841680108	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841680171	Marionette	INFO	Listening on port 65281
+WebDriver BiDi listening on ws://127.0.0.1:59205
+Read port: 65281
+1712841680320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59205/devtools/browser/e91ceaf8-40e4-4d90-a57a-ea8374ed598b
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841710116	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712841721109	Marionette	INFO	Stopped listening on port 65281
+Dynamically enable window occlusion 1
+1712841747127	geckodriver	INFO	Listening on 127.0.0.1:63911
+1712841750176	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63912" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileGTVWHr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712841750696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712841750759	Marionette	INFO	Listening on port 51714
+WebDriver BiDi listening on ws://127.0.0.1:63912
+Read port: 51714
+1712841750901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63912/devtools/browser/24d42abf-6bb4-4838-865a-6bc58d57cb8c
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712841774491	Marionette	INFO	Stopped listening on port 51714
+Dynamically enable window occlusion 1
+1712852657145	geckodriver	INFO	Listening on 127.0.0.1:61297
+1712852660204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilepjzolz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712852660745	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712852660809	Marionette	INFO	Listening on port 61308
+WebDriver BiDi listening on ws://127.0.0.1:61298
+Read port: 61308
+1712852660939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61298/devtools/browser/6fad10ea-78a6-4cb8-87d1-0a5a90cb4c67
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712852689416	Marionette	INFO	Stopped listening on port 61308
+Dynamically enable window occlusion 1
+1712852742411	geckodriver	INFO	Listening on 127.0.0.1:61464
+1712852745455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilehkmBCq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712852745894	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712852745949	Marionette	INFO	Listening on port 61479
+WebDriver BiDi listening on ws://127.0.0.1:61465
+Read port: 61479
+1712852746066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61465/devtools/browser/0f39a7c1-f80e-4673-84ad-cfbc338cb13d
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712852775910	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712852782328	Marionette	INFO	Stopped listening on port 61479
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/translations-models Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712852801552	geckodriver	INFO	Listening on 127.0.0.1:61106
+1712852804615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile4Qd24r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712852805052	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712852805108	Marionette	INFO	Listening on port 50416
+WebDriver BiDi listening on ws://127.0.0.1:61107
+Read port: 50416
+1712852805222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61107/devtools/browser/6d8b6676-92ea-431b-bf45-017d0ddafed2
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712852835069	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712852838360	Marionette	INFO	Stopped listening on port 50416
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712852969091	geckodriver	INFO	Listening on 127.0.0.1:53068
+1712852972154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileFeYHtS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712852972620	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712852972676	Marionette	INFO	Listening on port 53077
+WebDriver BiDi listening on ws://127.0.0.1:53069
+Read port: 53077
+1712852972812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53069/devtools/browser/ee4446eb-9a25-47b4-83d4-211d96f0acf4
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712852997369	Marionette	INFO	Stopped listening on port 53077
+Dynamically enable window occlusion 1
+1712853008764	geckodriver	INFO	Listening on 127.0.0.1:50099
+1712853011819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileOJG2S0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853012307	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853012366	Marionette	INFO	Listening on port 50110
+WebDriver BiDi listening on ws://127.0.0.1:50100
+Read port: 50110
+1712853012510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50100/devtools/browser/519d9c72-f4d1-43d5-aedf-25e03b4edbac
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853042323	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712853044806	Marionette	INFO	Stopped listening on port 50110
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712853167979	geckodriver	INFO	Listening on 127.0.0.1:62798
+1712853171037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilerAQWxs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853171483	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853171541	Marionette	INFO	Listening on port 62809
+Read port: 62809
+WebDriver BiDi listening on ws://127.0.0.1:62799
+1712853171591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62799/devtools/browser/b9c67725-3774-4a5e-85ba-86b26c4f0a30
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853188163	Marionette	INFO	Stopped listening on port 62809
+Dynamically enable window occlusion 1
+1712853192831	geckodriver	INFO	Listening on 127.0.0.1:62884
+1712853195890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofiletoDELz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853196334	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853196391	Marionette	INFO	Listening on port 62894
+Read port: 62894
+WebDriver BiDi listening on ws://127.0.0.1:62885
+1712853196442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62885/devtools/browser/f64bd23f-f398-4dba-9b17-68182477fdac
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853226354	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712853916354	Marionette	INFO	Stopped listening on port 62894
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "58362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileiPAURc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853315616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853315674	Marionette	INFO	Listening on port 55315
+WebDriver BiDi listening on ws://127.0.0.1:58362
+Read port: 55315
+1712853315804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58362/devtools/browser/acd9e643-3c91-4ab3-8ee5-b6d9700c90dd
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853339453	Marionette	INFO	Stopped listening on port 55315
+Dynamically enable window occlusion 1
+1712853349003	geckodriver	INFO	Listening on 127.0.0.1:55956
+1712853352062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileqQX7ZT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853352506	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853352563	Marionette	INFO	Listening on port 55969
+WebDriver BiDi listening on ws://127.0.0.1:55957
+Read port: 55969
+1712853352610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55957/devtools/browser/884c7285-b890-4587-b947-5696563041b0
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853382514	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712853387916	Marionette	INFO	Stopped listening on port 55969
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/tracking-protection-lists getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712853425424	geckodriver	INFO	Listening on 127.0.0.1:52890
+1712853428470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile6MOGx8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853428920	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853428975	Marionette	INFO	Listening on port 52900
+Read port: 52900
+WebDriver BiDi listening on ws://127.0.0.1:52891
+1712853429026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52891/devtools/browser/80c24bc6-7faa-44f2-9092-b11a8900b991
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853449434	Marionette	INFO	Stopped listening on port 52900
+JavaScript warning: https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854755, line 1: Script terminated by timeout at:
+gK@https://cstaticdun.126.net/2.26.1/core-optimi.v2.26.1.min.js?v=2854755:1:142353
+
+Dynamically enable window occlusion 1
+1712853511334	geckodriver	INFO	Listening on 127.0.0.1:53093
+1712853514384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile9mx1dP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853514857	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853514919	Marionette	INFO	Listening on port 53116
+WebDriver BiDi listening on ws://127.0.0.1:53094
+Read port: 53116
+1712853515053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53094/devtools/browser/9c3b5514-8447-4b2d-a900-025510e7a3eb
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853544866	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712853546275	Marionette	INFO	Stopped listening on port 53116
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1712853589565	geckodriver	INFO	Listening on 127.0.0.1:49619
+1712853591555	geckodriver	INFO	Listening on 127.0.0.1:49624
+1712853594607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileNcqweK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853595097	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853595156	Marionette	INFO	Listening on port 54030
+WebDriver BiDi listening on ws://127.0.0.1:49625
+Read port: 54030
+1712853595287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49625/devtools/browser/c9682b4d-3317-4e4b-aef2-36442b79a972
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853615361	Marionette	INFO	Stopped listening on port 54030
+Dynamically enable window occlusion 1
+1712853636030	geckodriver	INFO	Listening on 127.0.0.1:64619
+1712853639090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64620" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileGsX4cf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853639542	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853639599	Marionette	INFO	Listening on port 64628
+WebDriver BiDi listening on ws://127.0.0.1:64620
+Read port: 64628
+1712853639728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64620/devtools/browser/90eea9ae-6cac-408f-9660-e4c41f90c597
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853661172	Marionette	INFO	Stopped listening on port 64628
+Dynamically enable window occlusion 1
+1712853681036	geckodriver	INFO	Listening on 127.0.0.1:64732
+1712853684082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64733" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileLGrDls"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853684543	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853684599	Marionette	INFO	Listening on port 64747
+WebDriver BiDi listening on ws://127.0.0.1:64733
+Read port: 64747
+1712853684726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64733/devtools/browser/fdfb1850-d348-4cb0-8170-f0eeb0e9d430
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853712655	Marionette	INFO	Stopped listening on port 64747
+Dynamically enable window occlusion 1
+1712853724885	geckodriver	INFO	Listening on 127.0.0.1:64863
+1712853727929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64864" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilekmdCE2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853728392	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853728448	Marionette	INFO	Listening on port 64873
+WebDriver BiDi listening on ws://127.0.0.1:64864
+Read port: 64873
+1712853728576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64864/devtools/browser/9ecce414-df28-4b18-8b25-62c4a0112ee2
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853744779	Marionette	INFO	Stopped listening on port 64873
+Dynamically enable window occlusion 1
+1712853752001	geckodriver	INFO	Listening on 127.0.0.1:64943
+1712853755027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64944" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilepxCFnK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853755499	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853755557	Marionette	INFO	Listening on port 64968
+WebDriver BiDi listening on ws://127.0.0.1:64944
+Read port: 64968
+1712853755684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64944/devtools/browser/4a15f6b3-50a9-4083-a247-8784f24e3173
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853772153	Marionette	INFO	Stopped listening on port 64968
+Dynamically enable window occlusion 1
+1712853854008	geckodriver	INFO	Listening on 127.0.0.1:53154
+1712853857035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile9R71xn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853857516	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853857574	Marionette	INFO	Listening on port 53168
+WebDriver BiDi listening on ws://127.0.0.1:53155
+Read port: 53168
+1712853857710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53155/devtools/browser/64a5619c-f6c2-4926-b6a4-5ab79b7e30b6
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853873894	Marionette	INFO	Stopped listening on port 53168
+Dynamically enable window occlusion 1
+1712853923705	geckodriver	INFO	Listening on 127.0.0.1:49333
+1712853926775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49334" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileA4cRmS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853927252	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853927309	Marionette	INFO	Listening on port 49347
+WebDriver BiDi listening on ws://127.0.0.1:49334
+Read port: 49347
+1712853927445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49334/devtools/browser/d9484b10-0794-404f-8005-06e21b4c40ac
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853944095	Marionette	INFO	Stopped listening on port 49347
+Dynamically enable window occlusion 1
+1712853949450	geckodriver	INFO	Listening on 127.0.0.1:55048
+1712853952501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileVCxCV1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853952955	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853953010	Marionette	INFO	Listening on port 55060
+WebDriver BiDi listening on ws://127.0.0.1:55049
+Read port: 55060
+1712853953141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55049/devtools/browser/7c5bc997-7fb6-4493-b826-ace43f15a372
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712853967259	Marionette	INFO	Stopped listening on port 55060
+Dynamically enable window occlusion 1
+1712854118158	geckodriver	INFO	Listening on 127.0.0.1:50271
+1712854121239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileC9bg1R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854121700	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854121757	Marionette	INFO	Listening on port 50283
+WebDriver BiDi listening on ws://127.0.0.1:50272
+Read port: 50283
+1712854121886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50272/devtools/browser/2d411e49-6650-4817-a61b-5124c378f6d1
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854151714	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854193911	Marionette	INFO	Stopped listening on port 50283
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileFF0iv3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854134243	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854134301	Marionette	INFO	Listening on port 50354
+WebDriver BiDi listening on ws://127.0.0.1:50339
+Read port: 50354
+1712854134440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50339/devtools/browser/c9eeadf2-05f4-461d-8d6f-c2fe3fa96091
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854164267	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854192983	Marionette	INFO	Stopped listening on port 50354
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileQqiLYf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854146677	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854146735	Marionette	INFO	Listening on port 50433
+WebDriver BiDi listening on ws://127.0.0.1:50413
+Read port: 50433
+1712854146864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50413/devtools/browser/ec6c6426-3341-4bf9-8b85-a799365368c6
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854176689	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854192086	Marionette	INFO	Stopped listening on port 50433
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile9Izr6j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854158682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854158741	Marionette	INFO	Listening on port 50514
+WebDriver BiDi listening on ws://127.0.0.1:50498
+Read port: 50514
+1712854158877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50498/devtools/browser/9a247993-d966-4cb8-9d28-a40f04162584
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854188690	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854191637	Marionette	INFO	Stopped listening on port 50514
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+ certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50571/devtools/browser/044fdca4-5038-4033-b12a-fb8d72b7af26
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854191228	Marionette	INFO	Stopped listening on port 50589
+Dynamically enable window occlusion 1
+1712854332761	geckodriver	INFO	Listening on 127.0.0.1:51000
+1712854335811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilemaWA3N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854336288	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854336344	Marionette	INFO	Listening on port 51012
+WebDriver BiDi listening on ws://127.0.0.1:51001
+Read port: 51012
+1712854336474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51001/devtools/browser/d189592b-d579-4f65-97fb-b820c0d929c9
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854366305	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854406512	Marionette	INFO	Stopped listening on port 51012
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileRHqDTw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854348628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854348700	Marionette	INFO	Listening on port 51079
+WebDriver BiDi listening on ws://127.0.0.1:51067
+Read port: 51079
+1712854348866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51067/devtools/browser/77222fd9-bd2a-484c-8d87-f30ea0b60126
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854378638	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854406619	Marionette	INFO	Stopped listening on port 51079
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile7DDEnb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854360678	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854360751	Marionette	INFO	Listening on port 51168
+WebDriver BiDi listening on ws://127.0.0.1:51151
+Read port: 51168
+1712854360915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51151/devtools/browser/18fc4a67-824a-40fb-918f-1db2c0ee3a51
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854390693	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854406505	Marionette	INFO	Stopped listening on port 51168
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilemxz1qk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854374414	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854374475	Marionette	INFO	Listening on port 52596
+WebDriver BiDi listening on ws://127.0.0.1:52571
+Read port: 52596
+1712854374609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52571/devtools/browser/e29663d0-bdcf-4d9a-bcbb-822c0ebc8f6c
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854404427	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712854406603	Marionette	INFO	Stopped listening on port 52596
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/tracking-protection-lists getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+ttps://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854406519	Marionette	INFO	Stopped listening on port 52695
+Dynamically enable window occlusion 1
+1712854778790	geckodriver	INFO	Listening on 127.0.0.1:53747
+1712854781823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileoXw1iq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854782317	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854782374	Marionette	INFO	Listening on port 53755
+WebDriver BiDi listening on ws://127.0.0.1:53748
+Read port: 53755
+1712854782500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53748/devtools/browser/09c9fb4c-b9af-4f4f-a5df-6c62ddb3f0bf
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854804080	Marionette	INFO	Stopped listening on port 53755
+Dynamically enable window occlusion 1
+1712854806760	geckodriver	INFO	Listening on 127.0.0.1:53876
+1712854809831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileF78mSL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854810282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854810339	Marionette	INFO	Listening on port 53884
+WebDriver BiDi listening on ws://127.0.0.1:53877
+Read port: 53884
+1712854810468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53877/devtools/browser/bd0e4212-db01-462c-8b1d-b39f2151dc94
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854822758	Marionette	INFO	Stopped listening on port 53884
+Dynamically enable window occlusion 1
+1712854833531	geckodriver	INFO	Listening on 127.0.0.1:53947
+1712854836569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53948" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofile5ZyNJU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854837016	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854837073	Marionette	INFO	Listening on port 53957
+Read port: 53957
+WebDriver BiDi listening on ws://127.0.0.1:53948
+1712854837125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53948/devtools/browser/726a414d-311c-4095-a09e-5566f3b6786a
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1712854855920	Marionette	INFO	Stopped listening on port 53957
+Dynamically enable window occlusion 1
+1712854856602	geckodriver	INFO	Listening on 127.0.0.1:54015
+1712854859657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54016" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileDrOIpx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712854860208	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712854860264	Marionette	INFO	Listening on port 54023
+Read port: 54023
+WebDriver BiDi listening on ws://127.0.0.1:54016
+1712854860315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54016/devtools/browser/43da75b9-2f99-4aa3-9f66-93772ee24304
+1712854863291	Marionette	INFO	Stopped listening on port 54023
+Dynamically enable window occlusion 1

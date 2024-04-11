@@ -14,20 +14,17 @@ url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(5):
+    for i in range(1):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
+        browser.maximize_window()
         browser.get(url)
         bg_pic_path, sl_pic_path = getSlicePic(browser)
-
-        # distance1 = generate_distance(bg_pic_path, sl_pic_path) - 30
-        # distance2 = generate_distance_by_matchTemplate(bg_pic_path, sl_pic_path)
-        distance = preManage_pic(bg_pic_path, sl_pic_path) - 10
-        # if distance1 <= 0:
-        #     distance = distance2
-        # print(distance)
+        distance = preManage_pic(bg_pic_path, sl_pic_path)
         move_mouse(distance, browser)
+        time.sleep(2)
+        browser.close()
     return 0
 
 
@@ -40,24 +37,42 @@ def move_mouse(position, browser: webdriver):
     # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]
     element = browser.find_element(By.XPATH,
                                    "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]")
+
+    # 实时获得坐标信息
+    slider_image_element = browser.find_element(By.XPATH,
+                                                "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div["
+                                                "2]/div/div/div[1]/div/div[1]/img[2]")
     actions.click_and_hold(element).perform()
-    speed = 10
-    # 计算步长
-    step = int(position / speed)
-
-    # 分解移动操作，并控制速度
-    for i in range(1, abs(position), step):
-        if position > 0:
-            actions.move_by_offset(step, 0).perform()
+    actions.move_by_offset(position, 0)
+    # 这个是鼠标慢移动
+    while 1:
+        style = slider_image_element.get_attribute('style')
+        left_index = style.find('left:')
+        left_value = 0
+        if left_index != -1:
+            left_value_start = left_index + len("left:")  # left属性值的起始索引
+            left_value_end = style.find("px", left_value_start)  # left属性值的结束索引
+            left_value = style[left_value_start:left_value_end].strip()  # 提取left属性值
+            print("left属性值:", left_value)
         else:
-            actions.move_by_offset(-step, 0).perform()
-        actions.pause(0.1).perform()  # 设置动作持续时间
-
-    # 最后的微调，确保移动到指定位置
-    actions.move_by_offset(position % step, 0).perform()
-    # 移动鼠标到指定的偏移位置，设置持续时间
-    # actions.move_to_element_with_offset(element, position, 0).perform()
-    actions.pause(1).perform()  # 设置动作持续时间
+            print("未找到left属性值")
+        left_value = float(left_value) + 35
+        if abs(left_value - position) < 1:
+            break
+        if left_value > position:
+            actions.move_by_offset(-1, 0).perform()
+            actions.pause(0.1).perform()  # 设置动作持续时间
+        elif left_value < position:
+            actions.move_by_offset(1, 0).perform()
+            actions.pause(0.1).perform()  # 设置动作持续时间
+    """
+    首先，我们明确偏移量没问题
+    就是在鼠标的偏移量出现了问题
+    因为图片的像素是480长度
+    但是在浏览器中是520长度
+    你在480偏移的距离，要转换为520长度的距离
+    """
+    actions.pause(2).perform()  # 设置动作持续时间
     # 释放鼠标
     actions.release().perform()
     return 1
@@ -73,6 +88,7 @@ def getSlicePic(browser: webdriver):
     # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[1]/div/div[1]/img[2]
 
     # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[1]/div/div[1]/img[1]
+
     # 找到背景图片和滑块图片的元素
     # 等待5秒钟
     time.sleep(5)
@@ -157,15 +173,19 @@ def preManage_pic(bg_name, slider_name):
 
     res = cv2.matchTemplate(bg_pic, tp_pic, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)  # 寻找最优匹配
-    X = max_loc[0]  # 缺口的X轴坐标
+    # X = max_loc[0]  # 缺口的X轴坐标
+    X = max_loc[0]
 
+
+    # 测试等比例扩大
+    X = (X * 1.1) - (slider_image.shape[1] * 1.1 // 2)
     # 下面是验证缺口的位置
     th, tw = tp_pic.shape[:2]
     tl = max_loc  # 左上角点的坐标
     br = (tl[0] + tw, tl[1] + th)  # 右下角点的坐标
     cv2.rectangle(bg_image, tl, br, (0, 0, 255), 2)  # 绘制矩形
 
-    out_name = "out" + bg_name.split('/')[2]
+    out_name = "out" + str(X) + bg_name.split('/')[2]
 
     cv2.imwrite(out_name, bg_image)
     print("缺口的X轴坐标,", X)
