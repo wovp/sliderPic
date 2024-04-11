@@ -9,26 +9,27 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
 # 获取当前时间并格式化为字符串
-current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+
 url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(6):
+    for i in range(5):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
         browser.get(url)
         bg_pic_path, sl_pic_path = getSlicePic(browser)
 
-        distance1 = generate_distance(bg_pic_path, sl_pic_path) - 30
-        distance2 = generate_distance_by_matchTemplate(bg_pic_path, sl_pic_path)
-        distance = distance1
-        if distance1 <= 0:
-            distance = distance2
+        # distance1 = generate_distance(bg_pic_path, sl_pic_path) - 30
+        # distance2 = generate_distance_by_matchTemplate(bg_pic_path, sl_pic_path)
+        distance = preManage_pic(bg_pic_path, sl_pic_path) - 10
+        # if distance1 <= 0:
+        #     distance = distance2
         # print(distance)
         move_mouse(distance, browser)
     return 0
+
 
 # 移动鼠标
 def move_mouse(position, browser: webdriver):
@@ -37,7 +38,8 @@ def move_mouse(position, browser: webdriver):
 
     # 在元素上执行点击并按住不放的操作
     # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]
-    element = browser.find_element(By.XPATH, "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]")
+    element = browser.find_element(By.XPATH,
+                                   "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]")
     actions.click_and_hold(element).perform()
     speed = 10
     # 计算步长
@@ -63,6 +65,7 @@ def move_mouse(position, browser: webdriver):
 
 # 通过url 获得有缺口的图片和滑块图片
 def getSlicePic(browser: webdriver):
+    current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
     # 背景图片xpath
     # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[1]/div/div[1]/img[1]
 
@@ -93,9 +96,11 @@ def getSlicePic(browser: webdriver):
     # 保存图片到本地
     with open(bg_image_name, "wb") as bg_file:
         bg_file.write(bg_image)
+        bg_file.flush()  # 刷新到磁盘
 
     with open(sl_image_name, "wb") as slider_file:
         slider_file.write(slider_image)
+        slider_file.flush()  # 刷新到磁盘
 
     return bg_image_name, sl_image_name
 
@@ -109,7 +114,7 @@ def generate_distance(bg_image_name, sl_image_name):
         target_bytes = f.read()
 
     slide = ddddocr.DdddOcr(det=False, ocr=False, show_ad=False)
-    result = slide.slide_match(target_bytes, bg_image, simple_target=True)
+    result = slide.slide_match(target_bytes, bg_image)
     print(result)
     return result['target'][0]
 
@@ -134,7 +139,41 @@ def generate_distance_by_matchTemplate(bg_name, slider_name):
     return distance
 
 
+def preManage_pic(bg_name, slider_name):
+    # 读取背景图和滑块图
+    bg_image = cv2.imread(bg_name)
+    slider_image = cv2.imread(slider_name)
+
+    # 将图片转换为灰度图
+    gray_bg = cv2.cvtColor(bg_image, cv2.COLOR_BGR2GRAY)
+    gray_slider = cv2.cvtColor(slider_image, cv2.COLOR_BGR2GRAY)
+
+    # 使用Canny边缘检测算法
+    edges_bg = cv2.Canny(gray_bg, 100, 200)
+    edges_slider = cv2.Canny(gray_slider, 100, 200)
+
+    bg_pic = cv2.cvtColor(edges_bg, cv2.COLOR_GRAY2RGB)
+    tp_pic = cv2.cvtColor(edges_slider, cv2.COLOR_GRAY2RGB)
+
+    res = cv2.matchTemplate(bg_pic, tp_pic, cv2.TM_CCOEFF_NORMED)
+    min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)  # 寻找最优匹配
+    X = max_loc[0]  # 缺口的X轴坐标
+
+    # 下面是验证缺口的位置
+    th, tw = tp_pic.shape[:2]
+    tl = max_loc  # 左上角点的坐标
+    br = (tl[0] + tw, tl[1] + th)  # 右下角点的坐标
+    cv2.rectangle(bg_image, tl, br, (0, 0, 255), 2)  # 绘制矩形
+
+    out_name = "out" + bg_name.split('/')[2]
+
+    cv2.imwrite(out_name, bg_image)
+    print("缺口的X轴坐标,", X)
+    return X
+
+
 if __name__ == "__main__":
     sliding_code()
     # generate_distance("0", "0")
     # generate_distance_by_matchTemplate("./imgs/bg_img_20240411_134909.jpg", "./imgs/sl_img_20240411_134909.jpg")
+    # preManage_pic("./imgs/bg_img_20240411_134909.jpg", "./imgs/sl_img_20240411_134909.jpg")
