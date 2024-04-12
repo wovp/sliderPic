@@ -14,7 +14,7 @@ url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(1):
+    for i in range(5):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
@@ -56,7 +56,7 @@ def move_mouse(position, browser: webdriver):
             print("left属性值:", left_value)
         else:
             print("未找到left属性值")
-        left_value = float(left_value) + 35
+        left_value = float(left_value)
         if abs(left_value - position) < 1:
             break
         if left_value > position:
@@ -175,10 +175,61 @@ def preManage_pic(bg_name, slider_name):
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)  # 寻找最优匹配
     # X = max_loc[0]  # 缺口的X轴坐标
     X = max_loc[0]
+    print("原始缺口的X轴坐标,", X)
+    # 0 - 50
+    if X < 50:
+        X = X * 1.08 - 15
+    # 50 - 100
+    elif X < 100:
+        X = X * 1.08 - 20
+    # 100 - 125
+    elif X < 125:
+        X = X * 1.08 - 22
+    # 125 - 140
+    elif X < 140:
+        X = X * 1.08 - 32
+    # 140 - 150
+    elif X < 150:
+        X = X * 1.08 - 31
+    # 150 - 175
+    elif X < 175:
+        X = X * 1.08 - 38
+    # 175 - 200
+    elif X < 200:
+        X = X * 1.08 - 40
+    # 200 - 225
+    elif X < 225:
+        X = X * 1.08 - 47
+    # 225 - 250
+    elif X < 250:
+        X = X * 1.08 - 50
+    # 250 - 275
+    elif X < 275:
+        X = X * 1.08 - 52
+    # 275 - 290
+    elif X < 290:
+        X = X * 1.08 - 55
+    # 290 - 300
+    elif X <= 300:
+        X = X * 1.08 - 63
+    # 300 - 325
+    elif X <= 325:
+        X = X * 1.08 - 65
+    # 325 - 340
+    elif X <= 340:
+        X = X * 1.08 - 66
+    # 340 - 350
+    elif X < 350:
+        X = X * 1.08 - 68
+    # 350 - 400
+    elif X < 400:
+        X = X * 1.08 - 72
+    else:
+        X = X * 1.08 - 80
 
+    # 测试等比例扩大,需要根据不同的位置
+    # X = X * 1.08 - 35
 
-    # 测试等比例扩大
-    X = (X * 1.1) - (slider_image.shape[1] * 1.1 // 2)
     # 下面是验证缺口的位置
     th, tw = tp_pic.shape[:2]
     tl = max_loc  # 左上角点的坐标
@@ -188,10 +239,11 @@ def preManage_pic(bg_name, slider_name):
     out_name = "out" + str(X) + bg_name.split('/')[2]
 
     cv2.imwrite(out_name, bg_image)
-    print("缺口的X轴坐标,", X)
+
     return X
 
-
+def generate_X(X):
+    pass
 if __name__ == "__main__":
     sliding_code()
     # generate_distance("0", "0")
