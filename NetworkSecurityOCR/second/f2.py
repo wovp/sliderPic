@@ -14,7 +14,7 @@ url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(5):
+    for i in range(1):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
@@ -22,7 +22,8 @@ def sliding_code():
         browser.get(url)
         bg_pic_path, sl_pic_path = getSlicePic(browser)
         distance = preManage_pic(bg_pic_path, sl_pic_path)
-        move_mouse(distance, browser)
+        # move_mouse(distance, browser)
+        move_mouse_new(distance, browser)
         time.sleep(2)
         browser.close()
     return 0
@@ -73,6 +74,28 @@ def move_mouse(position, browser: webdriver):
     你在480偏移的距离，要转换为520长度的距离
     """
     actions.pause(2).perform()  # 设置动作持续时间
+    # 释放鼠标
+    actions.release().perform()
+    return 1
+
+
+def move_mouse_new(position, browser: webdriver):
+    # 创建 ActionChains 对象
+    actions = ActionChains(browser)
+
+    # 在元素上执行点击并按住不放的操作
+    # /html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]
+    element = browser.find_element(By.XPATH,
+                                   "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]")
+    tracks = get_tracks(distance=position)
+    actions.click_and_hold(element).perform()
+    for track in tracks['forward_tracks']:
+        actions.move_by_offset(xoffset=track, yoffset=0).perform()
+    time.sleep(0.5)
+    for back_tracks in tracks['back_tracks']:
+        actions.move_by_offset(xoffset=back_tracks, yoffset=0).perform()
+
+    time.sleep(0.5)
     # 释放鼠标
     actions.release().perform()
     return 1
@@ -184,48 +207,51 @@ def preManage_pic(bg_name, slider_name):
         X = X * 1.08 - 20
     # 100 - 125
     elif X < 125:
-        X = X * 1.08 - 22
+        X = X * 1.08 - 35
     # 125 - 140
     elif X < 140:
-        X = X * 1.08 - 32
+        X = X * 1.08 - 47
     # 140 - 150
     elif X < 150:
-        X = X * 1.08 - 31
+        X = X * 1.08 - 53
     # 150 - 175
     elif X < 175:
-        X = X * 1.08 - 38
+        X = X * 1.08 - 56
     # 175 - 200
     elif X < 200:
-        X = X * 1.08 - 40
+        X = X * 1.08 - 55
     # 200 - 225
     elif X < 225:
-        X = X * 1.08 - 47
+        X = X * 1.08 - 64
     # 225 - 250
     elif X < 250:
-        X = X * 1.08 - 50
+        X = X * 1.08 - 62
     # 250 - 275
     elif X < 275:
-        X = X * 1.08 - 52
+        X = X * 1.08 - 75
     # 275 - 290
     elif X < 290:
-        X = X * 1.08 - 55
+        X = X * 1.08 - 80
     # 290 - 300
     elif X <= 300:
-        X = X * 1.08 - 63
+        X = X * 1.08 - 79
     # 300 - 325
     elif X <= 325:
-        X = X * 1.08 - 65
+        X = X * 1.08 - 86
     # 325 - 340
     elif X <= 340:
-        X = X * 1.08 - 66
+        X = X * 1.08 - 90
     # 340 - 350
     elif X < 350:
-        X = X * 1.08 - 68
-    # 350 - 400
+        X = X * 1.08 - 97
+    # 350 - 375
+    elif X < 375:
+        X = X * 1.08 - 100
+    # 375 - 400
     elif X < 400:
-        X = X * 1.08 - 72
+        X = X * 1.08 - 102
     else:
-        X = X * 1.08 - 80
+        X = X * 1.08 - 120
 
     # 测试等比例扩大,需要根据不同的位置
     # X = X * 1.08 - 35
@@ -236,14 +262,33 @@ def preManage_pic(bg_name, slider_name):
     br = (tl[0] + tw, tl[1] + th)  # 右下角点的坐标
     cv2.rectangle(bg_image, tl, br, (0, 0, 255), 2)  # 绘制矩形
 
-    out_name = "out" + str(X) + bg_name.split('/')[2]
+    out_name = "./imgs " + "out" + str(X) + bg_name.split('/')[2]
 
     cv2.imwrite(out_name, bg_image)
 
     return X
 
-def generate_X(X):
-    pass
+
+def get_tracks(distance):
+    v = 0
+    t = 0.2
+    forward_tracks = []
+    current = 0
+    mid = distance * 3 / 5  # 减速阀值
+    while current < distance:
+        if current < mid:
+            a = 2  # 加速度为+2
+        else:
+            a = -3  # 加速度-3
+        s = v * t + 0.5 * a * (t ** 2)
+        v = v + a * t
+        current += s
+        forward_tracks.append(round(s))
+
+    back_tracks = [-3, -3, -2, -2, -2, -2, -2, -1, -1, -1]
+    return {'forward_tracks': forward_tracks, 'back_tracks': back_tracks}
+
+
 if __name__ == "__main__":
     sliding_code()
     # generate_distance("0", "0")
