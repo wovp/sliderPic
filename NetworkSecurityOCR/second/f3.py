@@ -41,7 +41,6 @@ def sliding_code():
         print(f"网页背景图片大小高度为: {bg_image_size['height']}, 宽度为:{bg_image_size['width']}")
         print(f"网页背景图片宽度为:{bg_image_width}")
         # distance = preManage_pic(bg_pic_path, sl_pic_path)
-        #
         # # move_mouse(distance, browser)
         # move_mouse_new(distance, browser)
         time.sleep(2)

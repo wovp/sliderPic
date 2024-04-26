@@ -14,7 +14,7 @@ url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(1):
+    for i in range(10):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
@@ -23,12 +23,69 @@ def sliding_code():
         bg_pic_path, sl_pic_path = getSlicePic(browser)
         distance = preManage_pic(bg_pic_path, sl_pic_path)
         # move_mouse(distance, browser)
-        move_mouse_new(distance, browser)
+        move_mouse_new(mode_x_mouse(distance), browser)
         time.sleep(2)
         browser.close()
     return 0
 
 
+def mode_x_mouse(X):
+    print(f"修正前{X}")
+
+    # 0 - 50
+    if X < 50:
+        X = X + 15
+    # 50 - 100
+    elif X < 100:
+        X = X + 23
+    # 100 - 125
+    elif X < 125:
+        X = X + 25
+    # 125 - 140
+    elif X < 140:
+        X = X + 30
+    # 140 - 150
+    elif X < 150:
+        X = X + 32
+    # 150 - 175
+    elif X < 175:
+        X = X + 33
+    # 175 - 200
+    elif X < 200:
+        X = X + 35
+    # 200 - 225
+    elif X < 225:
+        X = X + 35
+    # 225 - 250
+    elif X < 250:
+        X = X + 35
+    # 250 - 275
+    elif X < 275:
+        X = X + 35
+    # 275 - 290
+    elif X < 290:
+        X = X + 35
+    # 290 - 300
+    elif X <= 300:
+        X = X + 35
+    # 300 - 325
+    elif X <= 325:
+        X = X + 35
+    # 325 - 340
+    elif X <= 340:
+        X = X + 35
+    # 340 - 350
+    elif X < 350:
+        X = X + 35
+    # 350 - 375
+    elif X < 375:
+        X = X + 35
+    # 375 - 400
+    elif X < 400:
+        X = X + 35
+    else:
+        X = X + 35
+    return X
 # 移动鼠标
 def move_mouse(position, browser: webdriver):
     # 创建 ActionChains 对象
@@ -89,11 +146,9 @@ def move_mouse_new(position, browser: webdriver):
                                    "/html/body/div[2]/div[1]/div/div[2]/div/div[1]/form/div[2]/div/div/div[2]/div[2]")
     tracks = get_tracks(distance=position)
     actions.click_and_hold(element).perform()
-    for track in tracks['forward_tracks']:
+    for track in tracks:
         actions.move_by_offset(xoffset=track, yoffset=0).perform()
-    time.sleep(0.5)
-    for back_tracks in tracks['back_tracks']:
-        actions.move_by_offset(xoffset=back_tracks, yoffset=0).perform()
+        time.sleep(0.0001)
 
     time.sleep(0.5)
     # 释放鼠标
@@ -199,12 +254,46 @@ def preManage_pic(bg_name, slider_name):
     # X = max_loc[0]  # 缺口的X轴坐标
     X = max_loc[0]
     print("原始缺口的X轴坐标,", X)
-    # 0 - 50
+    # X = mode_X(X)
+    X = mode_X_new(X)
+
+    # 下面是验证缺口的位置
+    th, tw = tp_pic.shape[:2]
+    tl = max_loc  # 左上角点的坐标
+    br = (tl[0] + tw, tl[1] + th)  # 右下角点的坐标
+    cv2.rectangle(bg_image, tl, br, (0, 0, 255), 2)  # 绘制矩形
+
+    out_name = "./imgs " + "out" + str(X) + bg_name.split('/')[2]
+
+    cv2.imwrite(out_name, bg_image)
+
+    return X
+
+
+def get_tracks(distance):
+    v = 0
+    t = 0.2
+    forward_tracks = []
+    current = 0
+    mid = distance * 4 / 5  # 减速阀值
+    while current < distance:
+        if current < mid:
+            a = 2  # 加速度为+2
+        else:
+            a = -3  # 加速度-3
+        v0 = v
+        v = v0 + a * t
+        s = v0 * t + 0.5 * a * (t ** 2)
+        current += s
+        forward_tracks.append(round(s))
+    return forward_tracks
+
+def mode_X(X: float):
     if X < 50:
         X = X * 1.08 - 15
     # 50 - 100
     elif X < 100:
-        X = X * 1.08 - 20
+        X = X * 1.08 - 15
     # 100 - 125
     elif X < 125:
         X = X * 1.08 - 35
@@ -216,16 +305,16 @@ def preManage_pic(bg_name, slider_name):
         X = X * 1.08 - 53
     # 150 - 175
     elif X < 175:
-        X = X * 1.08 - 56
+        X = X * 1.08 - 58
     # 175 - 200
     elif X < 200:
-        X = X * 1.08 - 55
+        X = X * 1.08 - 60
     # 200 - 225
     elif X < 225:
         X = X * 1.08 - 64
     # 225 - 250
     elif X < 250:
-        X = X * 1.08 - 62
+        X = X * 1.08 - 66
     # 250 - 275
     elif X < 275:
         X = X * 1.08 - 75
@@ -252,43 +341,12 @@ def preManage_pic(bg_name, slider_name):
         X = X * 1.08 - 102
     else:
         X = X * 1.08 - 120
-
-    # 测试等比例扩大,需要根据不同的位置
-    # X = X * 1.08 - 35
-
-    # 下面是验证缺口的位置
-    th, tw = tp_pic.shape[:2]
-    tl = max_loc  # 左上角点的坐标
-    br = (tl[0] + tw, tl[1] + th)  # 右下角点的坐标
-    cv2.rectangle(bg_image, tl, br, (0, 0, 255), 2)  # 绘制矩形
-
-    out_name = "./imgs " + "out" + str(X) + bg_name.split('/')[2]
-
-    cv2.imwrite(out_name, bg_image)
-
     return X
 
 
-def get_tracks(distance):
-    v = 0
-    t = 0.2
-    forward_tracks = []
-    current = 0
-    mid = distance * 3 / 5  # 减速阀值
-    while current < distance:
-        if current < mid:
-            a = 2  # 加速度为+2
-        else:
-            a = -3  # 加速度-3
-        s = v * t + 0.5 * a * (t ** 2)
-        v = v + a * t
-        current += s
-        forward_tracks.append(round(s))
-
-    back_tracks = [-3, -3, -2, -2, -2, -2, -2, -1, -1, -1]
-    return {'forward_tracks': forward_tracks, 'back_tracks': back_tracks}
-
-
+def mode_X_new(X: float):
+    X = (X - 20) / 480 * 412.5
+    return X
 if __name__ == "__main__":
     sliding_code()
     # generate_distance("0", "0")
