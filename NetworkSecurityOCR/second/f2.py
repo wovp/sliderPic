@@ -14,7 +14,7 @@ url = "https://passport.kanxue.com/user-mobile-1.htm"
 
 
 def sliding_code():
-    for i in range(10):
+    for i in range(1):
         # 通过getSlicePic下载图片，传入ddddocr，获得res数组位置，然后移动鼠标.
         GECKODRIVER_PATH = r'./geckodriver.exe'
         browser = webdriver.Firefox(executable_path=GECKODRIVER_PATH)
@@ -22,13 +22,13 @@ def sliding_code():
         browser.get(url)
         bg_pic_path, sl_pic_path = getSlicePic(browser)
         distance = preManage_pic(bg_pic_path, sl_pic_path)
-        # move_mouse(distance, browser)
+        # 第二次修正轨迹
         move_mouse_new(mode_x_mouse(distance), browser)
         time.sleep(2)
         browser.close()
     return 0
 
-
+# 第二次修正轨迹，通过多次实验，划分区间映射
 def mode_x_mouse(X):
     print(f"修正前{X}")
 
@@ -86,7 +86,9 @@ def mode_x_mouse(X):
     else:
         X = X + 35
     return X
-# 移动鼠标
+
+
+# 旧的移动鼠标
 def move_mouse(position, browser: webdriver):
     # 创建 ActionChains 对象
     actions = ActionChains(browser)
@@ -136,6 +138,7 @@ def move_mouse(position, browser: webdriver):
     return 1
 
 
+# 新的移动鼠标
 def move_mouse_new(position, browser: webdriver):
     # 创建 ActionChains 对象
     actions = ActionChains(browser)
@@ -251,10 +254,10 @@ def preManage_pic(bg_name, slider_name):
 
     res = cv2.matchTemplate(bg_pic, tp_pic, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)  # 寻找最优匹配
-    # X = max_loc[0]  # 缺口的X轴坐标
     X = max_loc[0]
     print("原始缺口的X轴坐标,", X)
-    # X = mode_X(X)
+
+    # 第一次修正轨迹
     X = mode_X_new(X)
 
     # 下面是验证缺口的位置
@@ -269,7 +272,7 @@ def preManage_pic(bg_name, slider_name):
 
     return X
 
-
+# 模拟轨迹
 def get_tracks(distance):
     v = 0
     t = 0.2
@@ -287,6 +290,7 @@ def get_tracks(distance):
         current += s
         forward_tracks.append(round(s))
     return forward_tracks
+
 
 def mode_X(X: float):
     if X < 50:
@@ -343,12 +347,11 @@ def mode_X(X: float):
         X = X * 1.08 - 120
     return X
 
-
+# 第一次修正轨迹，通过缩放的方式
 def mode_X_new(X: float):
     X = (X - 20) / 480 * 412.5
     return X
+
+
 if __name__ == "__main__":
     sliding_code()
-    # generate_distance("0", "0")
-    # generate_distance_by_matchTemplate("./imgs/bg_img_20240411_134909.jpg", "./imgs/sl_img_20240411_134909.jpg")
-    # preManage_pic("./imgs/bg_img_20240411_134909.jpg", "./imgs/sl_img_20240411_134909.jpg")

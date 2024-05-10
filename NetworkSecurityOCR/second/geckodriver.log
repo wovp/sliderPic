@@ -6560,3 +6560,37 @@ maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
 observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
 
 console.error: (new Error("IndexedDB: main/devtools-devices getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1714106250510	geckodriver	INFO	Listening on 127.0.0.1:51994
+1714106253578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofilevtv23z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714106254093	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714106254151	Marionette	INFO	Listening on port 52004
+WebDriver BiDi listening on ws://127.0.0.1:51995
+Read port: 52004
+1714106254283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51995/devtools/browser/af89ead9-d1aa-4529-ab80-8c19ed2a7f2e
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1714106283826	Marionette	INFO	Stopped listening on port 52004
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1714106284155	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1714106327944	geckodriver	INFO	Listening on 127.0.0.1:52174
+1714106330989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\11\\AppData\\Local\\Temp\\rust_mozprofileTUeqvR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714106331470	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714106331527	Marionette	INFO	Listening on port 52182
+WebDriver BiDi listening on ws://127.0.0.1:52175
+Read port: 52182
+1714106331655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52175/devtools/browser/3c2e3d1e-bbf9-463a-8ffa-9105250fe92e
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 763: unreachable code after return statement
+JavaScript warning: https://passport.kanxue.com/pc/view/js/xiuno.js, line 833: unreachable code after return statement
+1714106358715	Marionette	INFO	Stopped listening on port 52182
+Dynamically enable window occlusion 1
